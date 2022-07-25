@@ -11,9 +11,9 @@ app.use('/*', (req, res) => {
      res.sendFile(path.join(__dirname + '/ThankYou.html'))
 })
 
-app.listen(process.env.PORT || 8080, () => {
-    console.log("Live Stream Connected Successfully")
-})
+// app.listen(process.env.PORT || 8080, () => {
+//     console.log("Live Stream Connected Successfully")
+// })
 
 const node_media_server = require('./Routers/Live Stream/live_Server')
 
