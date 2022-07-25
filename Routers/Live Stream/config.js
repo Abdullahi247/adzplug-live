@@ -13,7 +13,7 @@ const config = {
             ping_timeout: 30
         },
         http: {
-            port: 8080,
+            port: process.env.PORT || 8181,
             mediaroot: './server/media',
             allow_origin: '*'
         },
